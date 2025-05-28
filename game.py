@@ -11,12 +11,12 @@ clock = pygame.time.Clock()
 font = pygame.font.SysFont("Courier", 48)
 pixel_font = pygame.font.Font(pygame.font.match_font('pixeltype', bold=True), 72)
 
-# Load and display cover image for 3 seconds
-cover_image = pygame.image.load("cover image.png").convert()
-cover_image = pygame.transform.scale(cover_image, (720, 960))
-screen.blit(cover_image, (0, 0))
-pygame.display.flip()
-pygame.time.wait(3000)  # Display for 3 seconds
+# # Load and display cover image for 3 seconds
+# cover_image = pygame.image.load("cover image.png").convert()
+# cover_image = pygame.transform.scale(cover_image, (720, 960))
+# screen.blit(cover_image, (0, 0))
+# pygame.display.flip()
+# pygame.time.wait(3000)  # Display for 3 seconds
 
 # Load assets
 def load_image(path, scale_size):
